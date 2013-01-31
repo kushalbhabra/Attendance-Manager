@@ -13,7 +13,7 @@
         android:text="Today" 
         android:textSize="26sp"
         android:paddingTop="18px"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#333333"/>
 
     <ListView
         android:id="@android:id/list"

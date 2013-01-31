@@ -62,13 +62,13 @@ public class LectureArrayAdapter extends ArrayAdapter<Lecture> {
 			
 			String atn = i.getAtn();
 			if(atn.equals("y")){
-				v.setBackgroundColor(0xDD007700);
+				v.setBackgroundColor(0xAA007700);
 			}
 			if(atn.equals("n")){
-				v.setBackgroundColor(0xDD770000);
+				v.setBackgroundColor(0xAA770000);
 			}
 			if(atn.equals("na")){
-				v.setBackgroundColor(0xDD777777);
+				v.setBackgroundColor(0xAA777777);
 			}
 			
 			
