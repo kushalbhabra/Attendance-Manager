@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundgreen"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/sp_Day"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Today" 
+        android:textSize="26sp"
+        android:paddingTop="18px"
+        android:textColor="#FFFFFF"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sp_Day"
+       android:paddingTop="8dp"
+        android:layout_centerHorizontal="true" >
+    </ListView>
+
+
+    <Button
+        android:id="@+id/btn_markFull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@android:id/list"
+        android:layout_alignParentRight="true"
+        android:text="Mark Day" 
+        />
+
+    <Button
+        android:id="@+id/btn_calendar"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_above="@android:id/list"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10px"
+        android:text=""
+        android:background="@drawable/calendar_icon"
+        />
+
+</RelativeLayout>

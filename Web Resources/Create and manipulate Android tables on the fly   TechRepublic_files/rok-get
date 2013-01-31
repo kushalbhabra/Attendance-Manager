@@ -1,0 +1,23 @@
+rubicsResponse (
+	{
+	  rubics: {
+		response: {
+		  bodyText: "<div class=\"rbx-site-promo\" id=\"rbx_cncnetworkbar_main\">\u000a    <span class=\"rbx-site-name\">On SmartPlanet</span> \u000a    <span class=\"rbx-site-link\">\u000a        <a href=\"http://dw.com.com/rubicsclk?ver=2&amp;ts=2012.01.15.01.34.15.PST&amp;edId=&amp;onId=&amp;ptId=&amp;sId=1014&amp;appId=31&amp;offId=12683&amp;unitId=64&amp;poolId=1&amp;f1=1014&amp;f2=-0&amp;f3=-0&amp;alg=3&amp;&amp;opt=1&amp;linkPos=0&amp;destUrl=http:%2F%2Fwww.smartplanet.com%2Fblog%2Fsmart-takes%2Fibm-scientists-squish-a-bit-of-data-into-just-12-atoms%2F21587\">IBM scientists squish a bit of data into just 12 atoms</a>\u000a    </span>\u000a    <span class=\"rbx-site-tracking\" style=\"position:absolute;left:-9999px;\">\u000a        <img src=\"http://dw.com.com/rubicsimp/c.gif?ver=2&amp;ts=2012.01.15.01.34.15.PST&amp;edId=&amp;onId=&amp;ptId=&amp;sId=1014&amp;appId=31&amp;unitId=64&amp;poolId=1&amp;f1=1014&amp;f2=-0&amp;f3=-0&amp;alg=3&amp;opt=1&amp;off=12683,-1\" width=\"1\" height=\"1\" />\u000a    </span>\u000a</div>\u000a"
+		},
+		meta: {
+		  timestamp: "2012.01.15.01.34.15.PST",
+		  adstamp: "",
+		  errorText: ""
+		},
+		request: {
+		  appHandle: "cncnetworkbar",
+		  unitSp: "64",
+		  unitId: "64",
+		  poolId: "1",
+		  uri: "http://rok.com.com/rok-get?app_handle=cncnetworkbar&unit_sp=64&site=1014&wrapper=json"
+		}
+	  }
+	}
+);
+
+/* pyrus t 0.0.1.1.4.4.4.6 */

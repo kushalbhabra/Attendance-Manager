@@ -1,0 +1,18 @@
+  Cursor c = myDB.query(MY_DATABASE_TABLE, null, null, null, null, null, null); 
+  int firstnameColumnIndex = c.getColumnIndexOrThrow ("FirstName"); 
+  int ageColumnIndex = c.getColumnIndexOrThrow("Age"); 
+  adapterForSpinner = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item); 
+  adapterForSpinner.setDropDownViewResource (android.R.layout.simple_spinner_dropdown_item); 
+  spinner.setAdapter(adapterForSpinner); 
+  if (c.moveToFirst()) { 
+         do { 
+             adapterForSpinner.add(c.getString(firstnameColumnIndex) + " aged " + c.getShort(ageColumnIndex)); 
+         } while (c.moveToNext()); 
+          
+	 if (myDB != null) { 
+             myDB.close(); 
+         } 
+ } 
+else { 
+  resultsView.setText("DB EMPTY!!"); 
+} 

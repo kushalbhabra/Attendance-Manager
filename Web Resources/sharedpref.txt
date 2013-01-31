@@ -1,0 +1,10 @@
+SharedPreferences prefs = this.getSharedPreferences(
+      "com.example.app", Context.MODE_PRIVATE);
+
+//Reading
+String dateTimeKey = "com.example.app.datetime";
+long l = prefs.getLong(dateTimeKey, new Date().getTime()); 
+
+//Writing
+Date dt = getSomeDate();
+prefs.edit().putLong(dateTimeKey, dt.getTime()).commit();

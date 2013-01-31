@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:padding="10dp"
+        android:paddingBottom="20dp"
+        android:text="Subject List"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Save &amp; Proceed" android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="5dp"
+        android:text="Clear" android:textSize="12sp"/>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:padding="15dp" />
+		<requestFocus />
+    <EditText
+        android:id="@+id/EditText02"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:padding="15dp" >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditText02"
+        android:layout_below="@+id/EditText02"
+        android:layout_marginTop="26dp"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/button3"
+        android:paddingTop="5dp"
+        android:text="Save &amp; Add More" android:textSize="12sp"/>
+
+</RelativeLayout>

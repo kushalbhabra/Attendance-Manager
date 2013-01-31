@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_feed_tt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:padding="10dp"
+        android:paddingBottom="10dp"
+        android:text="Feed Timetable"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_monday"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_feed_tt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Monday" />
+
+    <Button
+        android:id="@+id/btn_tuesday"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/btn_monday"
+        android:layout_below="@+id/btn_monday"
+        android:text="Tuesday" />
+    <Button
+        android:id="@+id/btn_wednesday"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/btn_monday"
+        android:layout_below="@+id/btn_tuesday"
+        android:text="Wednesday" />
+    <Button
+        android:id="@+id/btn_thursday"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/btn_monday"
+        android:layout_below="@+id/btn_wednesday"
+        android:text="Thursday" />
+    <Button
+        android:id="@+id/btn_friday"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/btn_monday"
+        android:layout_below="@+id/btn_thursday"
+        android:text="Friday" />
+    <Button
+        android:id="@+id/btn_saturday"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/btn_monday"
+        android:layout_below="@+id/btn_friday"
+        android:text="Saturday" />
+    <Button
+        android:id="@+id/btn_sunday"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/btn_monday"
+        android:layout_below="@+id/btn_saturday"
+        android:text="Sunday" />
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btn_sunday"
+        android:text="Finish" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomButtonState">
+        <!-- Use one for every state you want to have  -->
+        <attr name="monday" format="boolean" />
+        <attr name="tuesday" format="boolean" />
+        <attr name="wednesday" format="boolean" />
+        <attr name="thursday" format="boolean" />
+        <attr name="friday" format="boolean" />
+        <attr name="saturday" format="boolean" />
+        <attr name="sunday" format="boolean" />
+    </declare-styleable>
+</resources>

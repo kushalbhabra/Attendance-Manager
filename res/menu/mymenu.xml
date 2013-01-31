@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	    <item android:id="@+id/stats_menu" android:title="Stats" />
+	    <item android:id="@+id/resetAll_menu" android:title= "Reset Everything" />
+	    <item android:id="@+id/resetAttendance_menu" android:title= "Reset attendance" />
+	    <item android:id="@+id/resetTT_menu" android:title= "Timetable options" />
+	    <item android:id="@+id/about_menu" android:title= "About Us" />
+	    <item android:id="@+id/fb_menu" android:title= "AM@Facebook" />
+</menu>

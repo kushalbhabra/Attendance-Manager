@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <style name="y">
+        <item name="android:text">#FFFF00</item>
+    </style>
+     <style name="n">
+        <item name="android:textColor">#FFFF00</item>
+    </style>
+     <style name="na">
+        <item name="android:textColor">#FFFF00</item>
+    </style>
+</resources>
